@@ -1,0 +1,4 @@
+#!/usr/bin/python
+
+import shutil
+shutil.copy2('bin/HelloWeb.war', '/var/lib/tomcat7/webapps')
